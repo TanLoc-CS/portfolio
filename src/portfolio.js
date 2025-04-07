@@ -23,10 +23,10 @@ const greeting = {
   username: "Tan Loc Nguyen",
   title: "Hi all, I'm Tan",
   subTitle: emoji(
-    "A Graduate Software Engineer 🚀 with a passion for problem-solving and a curiosity about how technology shapes the world."
+    "A Software Engineer 🚀 with a passion for problem-solving and a curiosity about how technology shapes the world."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/133mNykdOSIAiPYKGrqo4NYaExa2qQnbR/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12FU8AsiVTphJVG-kBfb_GQj2QVQ3fKkb/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -159,6 +159,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Founding Engineer",
+      company: "PantryPal",
+      companylogo: require("./assets/images/pantrypal-logo.png"),
+      date: "July 2024 – Present",
+      desc: "Spearheading the transition from a local v1 mobile app for home cooking to a v2 full-stack using Supabase.",
+      descBullets: [
+        "Created detailed documentation to guide product development.",
+        "Redesigned the database schema, enabling scalable and secure multi-user support."
+      ]
+    },
+    {
       role: "Software Engineer",
       company: "UTS CSJI",
       companylogo: require("./assets/images/csji_logo.jpeg"),
@@ -187,8 +198,19 @@ const workExperiences = {
       date: "November 2022 – December 2022",
       desc: "Conducted a Digital & Data Leaders Survey Analysis report.",
       descBullets: [
-        "Developed a data cleaning plan.",
+        "Developed a data cleaning plan and analysed the data.",
         "Presented analysis proposal and interpreted results."
+      ]
+    },
+    {
+      role: "Team Lead",
+      company: "GDSC HCMUT",
+      companylogo: require("./assets/images/gdsc-logo.png"),
+      date: "March 2022 – August 2022",
+      desc: "Led a team of 4 in designing a business analysis process for an internal information management application.",
+      descBullets: [
+        "Defined core product features.",
+        "Coordinated the end-to-end UX/UI design process."
       ]
     },
   ]
@@ -240,6 +262,17 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://communitycompass.com.au/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/p2p-pic.png"),
+      projectName: "P2P Chat App",
+      projectDesc: "a peer-to-peer CLI chat app through LAN",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/TanLoc-CS/p2p-chat-app"
         }
       ]
     },
