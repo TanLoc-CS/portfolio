@@ -334,13 +334,19 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@tanlocnguyen_/reflection-professional-practice-within-intercultural-and-global-contexts-e96201d9e4bc",
+      title: "Reflection: Professional Practice within intercultural and global contexts",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Demonstrate professional practice through effective collaboration and communication within intercultural and global contexts."
+    },
+    {
+      url: "https://medium.com/@tanlocnguyen_/reflection-principles-of-sustainability-to-create-viable-systems-4787029346ae",
+      title: "Reflection: Principles of sustainability to create viable systems",
+      description:
+        "Applied principles of sustainability to design inclusive, secure, and socially impactful digital systems that support long-term community wellbeing."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
