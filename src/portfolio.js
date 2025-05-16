@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/TanLoc-CS",
+  github: "https://github.com/tan-loc-nguyen",
   linkedin: "https://www.linkedin.com/in/tan-loc-nguyen-016983215/",
   gmail: "tanlocnguyen.tln@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
@@ -272,7 +272,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit GitHub",
-          url: "https://github.com/TanLoc-CS/p2p-chat-app"
+          url: "https://github.com/tan-loc-nguyen/p2p-chat-app"
         }
       ]
     },
